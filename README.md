@@ -13,25 +13,25 @@ This is a basic starter template for setting up a webpack-based project. It incl
 # Getting Started
 1. Clone the repository:
 
-    ```
-    git clone https://github.com/your-username/webpack-starter-template.git
+    ```bash
+    git clone https://github.com/NNikoGG/webpack-starter-template.git
     ```
 2. Install dependencies:
 
-   ```
+   ```bash
    cd webpack-starter-template
    npm install
    ```
 3. Start the development server:
 
-   ```
+   ```bash
    npm start
    ```
    This will launch the webpack development server and open your application in the default browser. Any changes you make to the source files will be automatically reloaded in the browser thanks to HMR.
   
    Building for Production
    To create an optimized production build, run:
-   ```
+   ```bash
    npm run build
    ```
    This will generate a dist folder containing your optimized and minified production-ready files.
